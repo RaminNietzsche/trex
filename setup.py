@@ -21,7 +21,7 @@ DESCRIPTION = "module for trex API"
 
 import sys
 from sys import path
-from distutils.core import setup
+from setuptools import setup
 
 if sys.version < '2.2.3':
     from distutils.dist import DistributionMetadata
@@ -48,8 +48,9 @@ setup(
         'enum34 >= 1.1.3',
         'jsonrpclib-pelix >= 0.2.6',
         'texttable >= 0.8.4',
-        'pyyaml',
-        'python-zmq',
+        'pyyaml >= 3.11',
+        'pyzmq >= 14.0.1',
+        'dpkt >= 1.8.7',
     ],
     platforms = "any",
     classifiers=[
