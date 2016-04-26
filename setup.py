@@ -29,7 +29,7 @@ if sys.version < '2.2.3':
     DistributionMetadata.download_url = None
 
 setup(
-    name = "trex",
+    name = "trex-api",
     version = "0.0.1",
     author = "Ramin Najjarbashi", 
     author_email = "Y21GdGFXNHVibUZxWVhKaVlYTm9hVUJuYldGcGJDNWpiMjA9",
